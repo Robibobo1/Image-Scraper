@@ -35,8 +35,7 @@ def download_images():
     response = requests.get(searchurl, headers=usr_agent)
     html = response.text
     print(html)
-
-    # find all divs where class='rg_meta'
+    
     soup = BeautifulSoup(html, 'html.parser')
     results = soup.findAll('div', {'class': 'img-responsive scan-page'}, limit=n_images)
     
