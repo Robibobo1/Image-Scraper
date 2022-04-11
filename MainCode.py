@@ -5,8 +5,11 @@ import os
 
 siteUrl = "https://www.scan-vf.net/uploads/manga/my-hero-academia/chapters/"
 chapterString = "chapitre-"
-chapterMax = 3
+chapterMax = 4
 suffix = ".jpg"
+
+if not os.path.exists("images"):
+        os.makedirs("images")
 
 for chapterNbr in range(1,chapterMax):
     if not os.path.exists("images/CH" + f"{chapterNbr:03}"):
