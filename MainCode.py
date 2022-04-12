@@ -2,43 +2,53 @@
 import requests # to get image from the web
 import shutil # to save it locally
 import os
+from os.path import basename
 
 siteUrl = "https://www.scan-vf.net/uploads/manga/my-hero-academia/chapters/"
 chapterString = "chapitre-"
-chapterMax = 4
-suffix = ".jpg"
+chapterMin = 99
+chapterMax = 101
+
+hasFound = True
+
 
 if not os.path.exists("images"):
         os.makedirs("images")
 
-for chapterNbr in range(1,chapterMax):
+for chapterNbr in range(chapterMin,chapterMax + 1):
     if not os.path.exists("images/CH" + f"{chapterNbr:03}"):
         os.makedirs("images/CH" + f"{chapterNbr:03}")
 
     for pageNbr in range(1,100):
 
-        ## Set up the image URL and filename
-        image_url = siteUrl + chapterString + str(chapterNbr) + "/" + f"{pageNbr:02}" + suffix
-        filename = "images/CH" + f"{chapterNbr:03}"  + "/" + f"{pageNbr:02}" + suffix
+        suffixList = [".jpg",".png"]
+        hasFound = False
 
-        print(image_url)
+        for suffix in suffixList:
 
-        if not os.path.exists(filename):
-            # Open the url image, set stream to True, this will return the stream content.
-            r = requests.get(image_url, stream = True)
+            image_url = siteUrl + chapterString + str(chapterNbr) + "/" + f"{pageNbr:02}" + suffix
+            filename = "images/CH" + f"{chapterNbr:03}"  + "/" + f"{pageNbr:02}" + suffix
 
-            # Check if the image was retrieved successfully
-            if r.status_code == 200:
-                # Set decode_content value to True, otherwise the downloaded image file's size will be zero.
-                r.raw.decode_content = True
-                
-                # Open a local file with wb ( write binary ) permission.
-                with open(filename,'wb') as f:
-                    shutil.copyfileobj(r.raw, f)
+            if not os.path.exists(filename):
+
+                r = requests.get(image_url, stream = True)
+
+                if r.status_code == 200:
+                   
+                    r.raw.decode_content = True
                     
-                print('Image sucessfully Downloaded: ',filename)
+                    with open(filename,'wb') as f:
+                        shutil.copyfileobj(r.raw, f)
+                        
+                    print(suffix + ' sucessfully Downloaded: ',filename)
+                    hasFound = True
+                    break
             else:
-                print('Image Couldn\'t be retreived')
-                break
-        else:
-            print("Image already downloaded")
+                print("Image already downloaded")
+                hasFound = True
+
+        if not hasFound:
+            break
+
+shutil.make_archive("images", 'zip', "images")
+#shutil. rmtree("images")
