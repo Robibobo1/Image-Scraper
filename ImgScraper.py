@@ -22,14 +22,14 @@ def imgScraper(siteUrl,destinationUrl,chMin,chMax):
 
         for pageNbr in range(1,100):
 
-            suffixList = [".jpg",".png"]
+            suffixList = [".png",".jpg"]
             hasFound = False
 
             for suffix in suffixList:
 
                 image_url = siteUrl + str(chapterNbr) + "/" + f"{pageNbr:02}" + suffix
                 filename = destinationUrl + "/CH" + f"{chapterNbr:03}"  + "/" + f"{pageNbr:02}" + suffix
-
+                print(image_url)
                 if not os.path.exists(filename):
 
                     r = requests.get(image_url, stream = True)
@@ -45,8 +45,9 @@ def imgScraper(siteUrl,destinationUrl,chMin,chMax):
                         hasFound = True
                         break
                 else:
-                    print("Image already downloaded")
+                    print("ch" + f"{chapterNbr:03}" + "p" + f"{pageNbr:02}" + " already downloaded")
                     hasFound = True
+                    break
 
             if not hasFound:
                 break
