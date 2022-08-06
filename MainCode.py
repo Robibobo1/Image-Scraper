@@ -1,19 +1,13 @@
-import ImgScraper 
-import CreateVolume
+from ImgScraper import *
+from CreateVolume import *
 
-firstChapter = 149
-lastchapter = 181
-volumeList = [1,8,17,26,35,44,53,62,71,80,89,98,107,116,125,134,143,153,162,182]
-destinationPath = "Z:\Manga\Jujutsu Kaisen\chapitres"
+firstChapter = 1
+lastchapter = 37
+volumeList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37]
+destinationPath = "C:\\Users\\robin\\Desktop\\Chapter"
 
-# ImgScraper.imgScraper(
-#     siteUrl="https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-",
-#     destinationUrl=destinationPath,
-#     chMin= firstChapter,
-#     chMax= lastchapter
-# )
-
-CreateVolume.VolumeCreator(volumeList,destinationPath)
+imgScraper(siteUrl="https://scansmangas.ws/scans/magi-the-labyrinth-of-magic/",destinationUrl=destinationPath,chMin= firstChapter,chMax= lastchapter,suffixList = [".png",".jpg"])
+VolumeCreator(volumeList,destinationPath)
 
 
 

@@ -11,7 +11,7 @@ from os.path import basename
 
 hasFound = True
 
-def imgScraper(siteUrl,destinationUrl,chMin,chMax):
+def imgScraper(siteUrl,destinationUrl,chMin,chMax, suffixList):
 
     if not os.path.exists(destinationUrl):
             os.makedirs(destinationUrl)
@@ -22,12 +22,12 @@ def imgScraper(siteUrl,destinationUrl,chMin,chMax):
 
         for pageNbr in range(1,100):
 
-            suffixList = [".png",".jpg"]
             hasFound = False
 
             for suffix in suffixList:
 
-                image_url = siteUrl + str(chapterNbr) + "/" + f"{pageNbr:02}" + suffix
+                #image_url = siteUrl + str(chapterNbr) + "/" + f"{pageNbr:02}" + suffix
+                image_url = siteUrl + str(chapterNbr) + "/" + str(pageNbr) + suffix
                 filename = destinationUrl + "/CH" + f"{chapterNbr:03}"  + "/" + f"{pageNbr:02}" + suffix
                 print(image_url)
                 if not os.path.exists(filename):
