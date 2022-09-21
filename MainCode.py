@@ -1,15 +1,13 @@
 from ImgScraper import *
 from CreateVolume import *
 
-firstChapter = 1
-lastchapter = 37
-volumeList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37]
-destinationPath = "C:\\Users\\robin\\Desktop\\Chapter"
+firstChapter = 100
+lastChapter = 110
+volumeList = [1,9,16,21,25,30,35,38,41,48,56,62,68,72,76,81,85,88,91,95,97,102,107,113,123,133,143,153,163,173,183,200,210,220] 
+url = "https://www.scan-vf.net/uploads/manga/my-hero-academia/chapters/chapitre-"
+destinationPath = "Chapter"
 
-imgScraper(siteUrl="https://scansmangas.ws/scans/magi-the-labyrinth-of-magic/",destinationUrl=destinationPath,chMin= firstChapter,chMax= lastchapter,suffixList = [".png",".jpg"])
-VolumeCreator(volumeList,destinationPath)
-
-
+imgScraper(siteUrl=url,destinationUrl=destinationPath,chMin=firstChapter,chMax=lastChapter,suffixList=[".jpg",".png"])
 
 # My hero : [1,8,18,27,36,45,54,63,72,81,90,100,109,119,129,138,148,158,168,178,189,201,213,225,236,247,259,268,277,286,296,307,319,329,351]
 # Jujutsu Kaisen [1,8,17,26,35,44,53,62,71,80,89,98,107,116,125,134,143,153,162,182]
@@ -27,3 +25,4 @@ VolumeCreator(volumeList,destinationPath)
 # Shingeki No Kyojin ---  tabStart = [1,5,10,14,19,23,27,31,35,39,43,47,51,55,59,63,67,71,75,79,83,87,91,95,99,103,107,111,115,119,123,127,131,135] lastChapter = 136
 # Fire Force --- tabStart = [1,6,16,26,35,43,52,61,70,79,88,97,106,115,124,133,142,151,160,169,178,187,196,205,214,223,232]  lastChapter = 251
 # Sun-Ken Rock ---- tabStart = [1,7,13,20,25,32,39,43,50,56,63,72,78,86,92,96,102,109,116,124,132,140,148,156,164]    lastChapter = 171
+# Solo Leveling ----- [1,11,13,18,25,35,38,46,56,61,65,76,90,108,111,123,132,140,150,167,178,180]

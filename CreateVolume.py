@@ -1,8 +1,8 @@
 import shutil
 import os
 
-volumeList = [1,8,18,27]#[1,8,18,27,36,45,54,63,72,81,90,100,109,119,129,138,148,158,168,178,189,201,213,225,236,247,259,268,277,286,296,307,319,329,351]
-destinationUrl = "Images"
+volumeList = [1,11,13,18,25,35,38,46,56,61,65,76,90,108,111,123,132,140,150,167,178,180]
+destinationUrl = "Z:\\Manga\\Solo Leveling\\Chapters"
 
 def VolumeCreator(volumeList,destinationUrl):
     for volumeNbr in range(1,len(volumeList)):
@@ -19,4 +19,17 @@ def VolumeCreator(volumeList,destinationUrl):
             except FileNotFoundError:
                 print("CH" + f"{chapterNbr:03}" + " déjà déplacé ou est manquant")
             except:
+                print(":(")
+
+
+
+def EmptyVolume(volumeList,destinationUrl):
+    for volumeNbr in range(1,len(volumeList)):
+        try:
+            source_dir = destinationUrl + "/Volume" + f"{volumeNbr:02}"
+            target_dir = destinationUrl
+            file_names = os.listdir(source_dir)
+            for file_name in file_names:
+                shutil.move(os.path.join(source_dir, file_name), target_dir)
+        except:
                 print(":(")

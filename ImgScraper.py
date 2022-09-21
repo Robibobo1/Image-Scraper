@@ -1,4 +1,5 @@
 ## Importing Necessary Modules
+from urllib import request
 import requests # to get image from the web
 import shutil # to save it locally
 import os
@@ -11,16 +12,18 @@ from os.path import basename
 
 hasFound = True
 
-def imgScraper(siteUrl,destinationUrl,chMin,chMax, suffixList):
+def imgScraper(siteUrl,destinationUrl,chMin,chMax, suffixList, folderName = "CH"):
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 
     if not os.path.exists(destinationUrl):
             os.makedirs(destinationUrl)
 
     for chapterNbr in range(chMin,chMax + 1):
-        if not os.path.exists(destinationUrl + "/CH" + f"{chapterNbr:03}"):
-            os.makedirs(destinationUrl + "/CH" + f"{chapterNbr:03}")
 
-        for pageNbr in range(1,100):
+        if not os.path.exists(destinationUrl + "/" + folderName + f"{chapterNbr:03}"):
+            os.makedirs(destinationUrl + "/" + folderName + f"{chapterNbr:03}")
+
+        for pageNbr in range(1,300):
 
             hasFound = False
 
@@ -28,22 +31,27 @@ def imgScraper(siteUrl,destinationUrl,chMin,chMax, suffixList):
 
                 #image_url = siteUrl + str(chapterNbr) + "/" + f"{pageNbr:02}" + suffix
                 image_url = siteUrl + str(chapterNbr) + "/" + str(pageNbr) + suffix
-                filename = destinationUrl + "/CH" + f"{chapterNbr:03}"  + "/" + f"{pageNbr:02}" + suffix
+                filename = destinationUrl + "/" + folderName + f"{chapterNbr:03}"  + "/" + f"{pageNbr:02}" + suffix
                 print(image_url)
+
                 if not os.path.exists(filename):
 
-                    r = requests.get(image_url, stream = True)
+                    with open(filename, 'wb') as handle:
+                        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
+                        response = requests.get(siteUrl, stream=True, headers=headers)
 
-                    if r.status_code == 200:
-                    
-                        r.raw.decode_content = True
-                        
-                        with open(filename,'wb') as f:
-                            shutil.copyfileobj(r.raw, f)
-                            
-                        print(suffix + ' sucessfully Downloaded: ',filename)
+                        if not response.ok:
+                            print(response)
+
+                        for block in response.iter_content(1024):
+                            if not block:
+                                break
+
+                            handle.write(block)
                         hasFound = True
-                        break
+
+                    #else:
+                        #print("img not found !")
                 else:
                     print("ch" + f"{chapterNbr:03}" + "p" + f"{pageNbr:02}" + " already downloaded")
                     hasFound = True
