@@ -8,46 +8,66 @@ import shutil # to save it locally
 import os
 from os.path import basename
 from bs4 import *
+import logging
+import sys
 
-def chapterDownloader(mangaUrl,filePath,chNumber):
+folderName = "CH"
+
+def chapterDownloader(mangaUrl,filePath,chNumber,idFilter = None):
     pageFormat = 2
-    folderName = "CH"
+    suffixList = [".png",".jpg",".webp"]
     
     if not os.path.exists(filePath):
         os.makedirs(filePath)
 
     folderPath = filePath + '/' + folderName + str(chNumber).zfill(3)
 
-    if not os.path.exists(folderPath):
-        os.makedirs(folderPath)
+    if os.path.exists(folderPath):
+        logging.info("CH" + str(chNumber) + " already exist")
+        return 
+    os.makedirs(folderPath)
+    logging.info("Downloading chapter " + str(chNumber))
 
-    for pageNumber in range(1,1000):
-        webUrl = mangaUrl + str(chNumber) + "/" + str(pageNumber)
-        print(webUrl) 
-        htmlData = requests.get(webUrl,headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'})
-        soup = BeautifulSoup(htmlData.text, 'html.parser')
-        image = soup.findAll('img')
-        if image == None:
+    for pageNumber in range(1,500):
+        suffixFound = False
+        for suffix in suffixList:
+            webUrl = mangaUrl + str(chNumber) + "/" + str(pageNumber).zfill(2) + suffix
+            htmlCode = imageRequest(webUrl,folderPath + "/" + str(pageNumber).zfill(2) + suffix)
+            if htmlCode == 200:
+                suffixFound = True
+                logging.debug(webUrl)
+                break
+        if htmlCode == 404:
+            logging.info("Chapter " + str(chNumber) + " downloaded" )
             break
-        imageUrl = image.get('data-src')
-        splitUrl = imageUrl.split('.')
-        suffix = splitUrl[len(splitUrl) - 1] 
-        imageRequest(imageUrl.strip(),folderPath + "/" + str(pageNumber).zfill(2) + "." + suffix)
-        print(imageUrl.strip())
-
-    print("Chapter " + str(chNumber) + " downloaded")
-
-
     
 
 def multiChaptersDownloader(mangaUrl,filePath,chMin,chMax):
-    return 0
+    for chapter in range(chMin,chMax + 1):
+        chapterDownloader(mangaUrl,filePath,chapter)
+
 
 def volumeDownloader(mangaUrl,filePath,volumeList,volumeNumber):
-    return 0
+    volumePath = filePath + "/Volume" + str(volumeNumber).zfill(2)
+    if os.path.exists(volumePath):
+        logging.info("Volume" + str(volumeNumber) + " already exist")
+        return 
+    os.makedirs(volumePath)
+    firstChapter = volumeList[volumeNumber - 1]
+    lastChapter = volumeList[volumeNumber] - 1
+    multiChaptersDownloader(mangaUrl,filePath,firstChapter,lastChapter)
+
+    try:
+        for chapter in range(firstChapter,lastChapter + 1):
+            shutil.move(os.path.join(filePath,folderName + str(chapter).zfill(3)), volumePath)
+        logging.info("Volume " + str(volumeNumber) + " downloaded succesfully")
+    except:
+        logging.error("Chapter to volume failed")
+
 
 def multiVolumesDownloader(mangaUrl,filePath,volumeList,volumeMin,volumeMax):
-    return 0    
+    for volume in range(volumeMin,volumeMax + 1):
+        volumeDownloader(mangaUrl,filePath,volumeList,volume)
 
 
 def imageRequest(webUrl,fileDestination,headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}):
@@ -59,14 +79,27 @@ def imageRequest(webUrl,fileDestination,headers = {'User-Agent': 'Mozilla/5.0 (M
             shutil.copyfileobj(r.raw, f)
     return r.status_code
 
-def test(webUrl):
-    r = requests.get(webUrl,headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'})
-    soup = BeautifulSoup(r.text, 'html.parser')
-    image = soup.find('img')
-    if image == None:
-        print("yes")
+def EmptyVolume(volumeList,destinationUrl):
+    for volumeNbr in range(1,len(volumeList)):
+        try:
+            source_dir = destinationUrl + "/Volume" + f"{volumeNbr:02}"
+            target_dir = destinationUrl
+            file_names = os.listdir(source_dir)
+            for file_name in file_names:
+                shutil.move(os.path.join(source_dir, file_name), target_dir)
+        except:
+                print(":(")
 
-#print(imageRequest('https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-197/05.jpg','test.jpg'))
-print(chapterDownloader("https://www.scan-vf.net/my-hero-academia/chapitre-","Test",363))
-#test("https://www.scan-vf.net/my-hero-academia/chapitre-363/15")
-#print(imageRequest("https://www.scan-vf.net/uploads/manga/my-hero-academia/chapters/chapitre-363/01.jpg","Test/CH363/01.jpg"))
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+
+volumeList = [1,8,18,27,36,45,54,63,72,81,90,100,109,119,129,138,148,158,168,178,189,201,213,225,236,247,259,268,277,286,296,307,319,329,351]
+
+multiVolumesDownloader("https://www.scan-vf.net/uploads/manga/my-hero-academia/chapters/chapitre-","Test",volumeList,1,10)

@@ -1,0 +1,454 @@
+2022-09-26 20:11:54,401 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:54,676 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/01.png HTTP/1.1" 404 None
+2022-09-26 20:11:54,688 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:54,861 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/01.jpg HTTP/1.1" 200 595331
+2022-09-26 20:11:55,393 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/01.jpg
+2022-09-26 20:11:55,396 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:55,618 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/02.png HTTP/1.1" 404 None
+2022-09-26 20:11:55,621 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:55,795 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/02.jpg HTTP/1.1" 200 655364
+2022-09-26 20:11:56,385 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/02.jpg
+2022-09-26 20:11:56,387 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:56,626 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/03.png HTTP/1.1" 404 None
+2022-09-26 20:11:56,629 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:56,799 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/03.jpg HTTP/1.1" 200 569959
+2022-09-26 20:11:57,384 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/03.jpg
+2022-09-26 20:11:57,385 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:57,575 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/04.png HTTP/1.1" 404 None
+2022-09-26 20:11:57,588 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:57,766 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/04.jpg HTTP/1.1" 200 570270
+2022-09-26 20:11:58,238 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/04.jpg
+2022-09-26 20:11:58,240 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:58,428 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/05.png HTTP/1.1" 404 None
+2022-09-26 20:11:58,434 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:58,619 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/05.jpg HTTP/1.1" 200 683316
+2022-09-26 20:11:59,066 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/05.jpg
+2022-09-26 20:11:59,067 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:59,261 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/06.png HTTP/1.1" 404 None
+2022-09-26 20:11:59,267 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:11:59,428 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/06.jpg HTTP/1.1" 200 606350
+2022-09-26 20:11:59,923 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/06.jpg
+2022-09-26 20:11:59,924 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:00,155 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/07.png HTTP/1.1" 404 None
+2022-09-26 20:12:00,158 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:00,302 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/07.jpg HTTP/1.1" 200 602182
+2022-09-26 20:12:01,138 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/07.jpg
+2022-09-26 20:12:01,140 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:01,331 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/08.png HTTP/1.1" 404 None
+2022-09-26 20:12:01,334 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:01,492 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/08.jpg HTTP/1.1" 200 656085
+2022-09-26 20:12:01,977 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/08.jpg
+2022-09-26 20:12:01,978 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:02,223 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/09.png HTTP/1.1" 404 None
+2022-09-26 20:12:02,226 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:02,396 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/09.jpg HTTP/1.1" 200 594421
+2022-09-26 20:12:02,843 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/09.jpg
+2022-09-26 20:12:02,845 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:03,031 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/10.png HTTP/1.1" 404 None
+2022-09-26 20:12:03,035 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:03,187 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/10.jpg HTTP/1.1" 200 697261
+2022-09-26 20:12:03,746 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/10.jpg
+2022-09-26 20:12:03,748 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:03,953 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/11.png HTTP/1.1" 404 None
+2022-09-26 20:12:03,956 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:04,107 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/11.jpg HTTP/1.1" 200 777556
+2022-09-26 20:12:04,548 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/11.jpg
+2022-09-26 20:12:04,550 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:04,762 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/12.png HTTP/1.1" 404 None
+2022-09-26 20:12:04,765 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:04,933 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/12.jpg HTTP/1.1" 200 740496
+2022-09-26 20:12:06,053 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/12.jpg
+2022-09-26 20:12:06,055 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:06,230 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/13.png HTTP/1.1" 404 None
+2022-09-26 20:12:06,233 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:06,389 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/13.jpg HTTP/1.1" 200 939883
+2022-09-26 20:12:06,904 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/13.jpg
+2022-09-26 20:12:06,908 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:07,123 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/14.png HTTP/1.1" 404 None
+2022-09-26 20:12:07,126 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:07,270 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/14.jpg HTTP/1.1" 200 713332
+2022-09-26 20:12:07,671 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/14.jpg
+2022-09-26 20:12:07,673 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:07,869 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/15.png HTTP/1.1" 404 None
+2022-09-26 20:12:07,872 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:08,033 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/15.jpg HTTP/1.1" 200 719811
+2022-09-26 20:12:08,205 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/15.jpg
+2022-09-26 20:12:08,207 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:08,413 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/16.png HTTP/1.1" 404 None
+2022-09-26 20:12:08,418 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:08,569 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/16.jpg HTTP/1.1" 200 613773
+2022-09-26 20:12:09,068 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/16.jpg
+2022-09-26 20:12:09,075 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:09,266 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/17.png HTTP/1.1" 404 None
+2022-09-26 20:12:09,269 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:09,420 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/17.jpg HTTP/1.1" 200 883005
+2022-09-26 20:12:10,310 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/17.jpg
+2022-09-26 20:12:10,311 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:10,566 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/18.png HTTP/1.1" 404 None
+2022-09-26 20:12:10,577 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:10,759 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/18.jpg HTTP/1.1" 200 549301
+2022-09-26 20:12:11,123 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/18.jpg
+2022-09-26 20:12:11,127 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:11,328 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/19.png HTTP/1.1" 404 None
+2022-09-26 20:12:11,333 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:11,482 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/19.jpg HTTP/1.1" 200 459414
+2022-09-26 20:12:11,797 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-195/19.jpg
+2022-09-26 20:12:11,801 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:11,999 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/20.png HTTP/1.1" 404 None
+2022-09-26 20:12:12,002 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:12,184 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/20.jpg HTTP/1.1" 404 None
+2022-09-26 20:12:12,190 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:12,384 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-195/20.webp HTTP/1.1" 404 None
+2022-09-26 20:12:12,387 [INFO] Chapter 195 downloaded
+2022-09-26 20:12:12,390 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:12,597 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/01.png HTTP/1.1" 404 None
+2022-09-26 20:12:12,599 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:12,748 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/01.jpg HTTP/1.1" 200 452636
+2022-09-26 20:12:13,187 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/01.jpg
+2022-09-26 20:12:13,190 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:13,403 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/02.png HTTP/1.1" 404 None
+2022-09-26 20:12:13,409 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:13,555 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/02.jpg HTTP/1.1" 200 350756
+2022-09-26 20:12:13,817 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/02.jpg
+2022-09-26 20:12:13,819 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:13,989 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/03.png HTTP/1.1" 404 None
+2022-09-26 20:12:13,992 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:14,154 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/03.jpg HTTP/1.1" 200 573530
+2022-09-26 20:12:14,539 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/03.jpg
+2022-09-26 20:12:14,542 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:14,731 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/04.png HTTP/1.1" 404 None
+2022-09-26 20:12:14,741 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:14,893 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/04.jpg HTTP/1.1" 200 630703
+2022-09-26 20:12:15,823 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/04.jpg
+2022-09-26 20:12:15,825 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:16,013 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/05.png HTTP/1.1" 404 None
+2022-09-26 20:12:16,018 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:16,184 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/05.jpg HTTP/1.1" 200 385115
+2022-09-26 20:12:16,546 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/05.jpg
+2022-09-26 20:12:16,551 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:16,741 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/06.png HTTP/1.1" 404 None
+2022-09-26 20:12:16,747 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:16,925 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/06.jpg HTTP/1.1" 200 811660
+2022-09-26 20:12:17,494 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/06.jpg
+2022-09-26 20:12:17,495 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:17,701 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/07.png HTTP/1.1" 404 None
+2022-09-26 20:12:17,708 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:17,882 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/07.jpg HTTP/1.1" 200 722657
+2022-09-26 20:12:19,043 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/07.jpg
+2022-09-26 20:12:19,045 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:19,217 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/08.png HTTP/1.1" 404 None
+2022-09-26 20:12:19,220 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:19,377 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/08.jpg HTTP/1.1" 200 554837
+2022-09-26 20:12:19,760 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/08.jpg
+2022-09-26 20:12:19,761 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:19,938 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/09.png HTTP/1.1" 404 None
+2022-09-26 20:12:19,949 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:20,108 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/09.jpg HTTP/1.1" 200 758146
+2022-09-26 20:12:20,599 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/09.jpg
+2022-09-26 20:12:20,602 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:20,812 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/10.png HTTP/1.1" 404 None
+2022-09-26 20:12:20,824 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:20,983 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/10.jpg HTTP/1.1" 200 413778
+2022-09-26 20:12:21,530 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/10.jpg
+2022-09-26 20:12:21,535 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:21,725 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/11.png HTTP/1.1" 404 None
+2022-09-26 20:12:21,727 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:21,876 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/11.jpg HTTP/1.1" 200 378384
+2022-09-26 20:12:22,252 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/11.jpg
+2022-09-26 20:12:22,255 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:22,500 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/12.png HTTP/1.1" 404 None
+2022-09-26 20:12:22,508 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:22,663 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/12.jpg HTTP/1.1" 200 257438
+2022-09-26 20:12:22,923 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/12.jpg
+2022-09-26 20:12:22,924 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:23,127 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/13.png HTTP/1.1" 404 None
+2022-09-26 20:12:23,129 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:23,273 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/13.jpg HTTP/1.1" 200 287976
+2022-09-26 20:12:23,592 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/13.jpg
+2022-09-26 20:12:23,598 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:23,783 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/14.png HTTP/1.1" 404 None
+2022-09-26 20:12:23,787 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:23,956 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/14.jpg HTTP/1.1" 200 958036
+2022-09-26 20:12:24,551 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/14.jpg
+2022-09-26 20:12:24,553 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:24,744 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/15.png HTTP/1.1" 404 None
+2022-09-26 20:12:24,747 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:24,947 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/15.jpg HTTP/1.1" 200 815935
+2022-09-26 20:12:25,334 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/15.jpg
+2022-09-26 20:12:25,335 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:25,514 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/16.png HTTP/1.1" 404 None
+2022-09-26 20:12:25,521 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:25,679 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/16.jpg HTTP/1.1" 200 449105
+2022-09-26 20:12:26,319 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/16.jpg
+2022-09-26 20:12:26,320 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:26,544 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/17.png HTTP/1.1" 404 None
+2022-09-26 20:12:26,546 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:26,713 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/17.jpg HTTP/1.1" 200 347486
+2022-09-26 20:12:27,187 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/17.jpg
+2022-09-26 20:12:27,188 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:27,355 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/18.png HTTP/1.1" 404 None
+2022-09-26 20:12:27,360 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:27,527 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/18.jpg HTTP/1.1" 200 407507
+2022-09-26 20:12:27,897 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/18.jpg
+2022-09-26 20:12:27,899 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:28,090 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/19.png HTTP/1.1" 404 None
+2022-09-26 20:12:28,093 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:28,265 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/19.jpg HTTP/1.1" 200 339463
+2022-09-26 20:12:28,598 [DEBUG] https://www.scan-vf.net/uploads/manga/jujutsu-kaisen/chapters/chapitre-196/19.jpg
+2022-09-26 20:12:28,600 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:28,787 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/20.png HTTP/1.1" 404 None
+2022-09-26 20:12:28,790 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:28,987 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/20.jpg HTTP/1.1" 404 None
+2022-09-26 20:12:28,989 [DEBUG] Starting new HTTPS connection (1): www.scan-vf.net:443
+2022-09-26 20:12:29,187 [DEBUG] https://www.scan-vf.net:443 "GET /uploads/manga/jujutsu-kaisen/chapters/chapitre-196/20.webp HTTP/1.1" 404 None
+2022-09-26 20:12:29,189 [INFO] Chapter 196 downloaded
+2022-09-26 20:21:58,329 [INFO] Chapter 195 downloaded
+2022-09-26 20:22:17,755 [INFO] Chapter 196 downloaded
+2022-09-26 20:22:20,238 [INFO] CH195 already exist
+2022-09-26 20:22:20,239 [INFO] CH196 already exist
+2022-09-26 20:34:44,535 [INFO] Chapter 194 downloaded
+2022-09-26 20:34:44,537 [INFO] CH195 already exist
+2022-09-26 20:34:44,538 [INFO] CH196 already exist
+2022-09-26 20:35:02,878 [INFO] Chapter 197 downloaded
+2022-09-26 20:35:02,879 [ERROR] Chapter to volume failed
+2022-09-26 20:36:05,574 [INFO] Volume1 already exist
+2022-09-26 20:36:11,705 [INFO] CH194 already exist
+2022-09-26 20:36:11,706 [INFO] CH195 already exist
+2022-09-26 20:36:11,706 [INFO] CH196 already exist
+2022-09-26 20:36:11,707 [INFO] CH197 already exist
+2022-09-26 20:37:30,422 [INFO] Chapter 194 downloaded
+2022-09-26 20:37:50,094 [INFO] Chapter 195 downloaded
+2022-09-26 20:38:09,201 [INFO] Chapter 196 downloaded
+2022-09-26 20:38:29,275 [INFO] Chapter 197 downloaded
+2022-09-26 20:38:29,280 [INFO] Volume 1 téléchargé avec succès
+2022-09-26 20:38:52,779 [INFO] Downloading chapter 194
+2022-09-26 20:39:14,108 [INFO] Chapter 194 downloaded
+2022-09-26 20:39:14,111 [INFO] Downloading chapter 195
+2022-09-26 20:39:32,442 [INFO] Chapter 195 downloaded
+2022-09-26 20:39:32,443 [INFO] Downloading chapter 196
+2022-09-26 20:39:48,161 [INFO] Chapter 196 downloaded
+2022-09-26 20:39:48,164 [INFO] Downloading chapter 197
+2022-09-26 20:40:06,868 [INFO] Chapter 197 downloaded
+2022-09-26 20:40:06,885 [INFO] Volume 1 downloaded succesfully
+2022-09-26 20:48:31,791 [INFO] Downloading chapter 1
+2022-09-26 20:49:15,037 [INFO] Chapter 1 downloaded
+2022-09-26 20:49:15,039 [INFO] Downloading chapter 2
+2022-09-26 20:49:41,025 [INFO] Chapter 2 downloaded
+2022-09-26 20:49:41,026 [INFO] Downloading chapter 3
+2022-09-26 20:49:58,080 [INFO] Chapter 3 downloaded
+2022-09-26 20:49:58,082 [INFO] Downloading chapter 4
+2022-09-26 20:50:14,618 [INFO] Chapter 4 downloaded
+2022-09-26 20:50:14,621 [INFO] Downloading chapter 5
+2022-09-26 20:50:30,170 [INFO] Chapter 5 downloaded
+2022-09-26 20:50:30,173 [INFO] Downloading chapter 6
+2022-09-26 20:50:47,189 [INFO] Chapter 6 downloaded
+2022-09-26 20:50:47,189 [INFO] Downloading chapter 7
+2022-09-26 20:51:01,980 [INFO] Chapter 7 downloaded
+2022-09-26 20:51:01,981 [INFO] Downloading chapter 8
+2022-09-26 20:51:17,032 [INFO] Chapter 8 downloaded
+2022-09-26 20:51:17,042 [INFO] Volume 1 downloaded succesfully
+2022-09-26 20:51:17,043 [INFO] Downloading chapter 9
+2022-09-26 20:51:35,077 [INFO] Chapter 9 downloaded
+2022-09-26 20:51:35,077 [INFO] Downloading chapter 10
+2022-09-26 20:51:51,911 [INFO] Chapter 10 downloaded
+2022-09-26 20:51:51,911 [INFO] Downloading chapter 11
+2022-09-26 20:52:07,541 [INFO] Chapter 11 downloaded
+2022-09-26 20:52:07,543 [INFO] Downloading chapter 12
+2022-09-26 20:52:21,836 [INFO] Chapter 12 downloaded
+2022-09-26 20:52:21,837 [INFO] Downloading chapter 13
+2022-09-26 20:52:34,501 [INFO] Chapter 13 downloaded
+2022-09-26 20:52:34,502 [INFO] Downloading chapter 14
+2022-09-26 20:52:50,214 [INFO] Chapter 14 downloaded
+2022-09-26 20:52:50,215 [INFO] Downloading chapter 15
+2022-09-26 20:53:03,885 [INFO] Chapter 15 downloaded
+2022-09-26 20:53:03,893 [INFO] Volume 2 downloaded succesfully
+2022-09-26 20:53:03,894 [INFO] Downloading chapter 16
+2022-09-26 20:53:17,567 [INFO] Chapter 16 downloaded
+2022-09-26 20:53:17,567 [INFO] Downloading chapter 17
+2022-09-26 20:53:30,612 [INFO] Chapter 17 downloaded
+2022-09-26 20:53:30,613 [INFO] Downloading chapter 18
+2022-09-26 20:53:42,839 [INFO] Chapter 18 downloaded
+2022-09-26 20:53:42,839 [INFO] Downloading chapter 19
+2022-09-26 20:53:54,579 [INFO] Chapter 19 downloaded
+2022-09-26 20:53:54,580 [INFO] Downloading chapter 20
+2022-09-26 20:54:09,044 [INFO] Chapter 20 downloaded
+2022-09-26 20:54:09,051 [INFO] Volume 3 downloaded succesfully
+2022-09-26 20:54:09,052 [INFO] Downloading chapter 21
+2022-09-26 20:54:23,619 [INFO] Chapter 21 downloaded
+2022-09-26 20:54:23,620 [INFO] Downloading chapter 22
+2022-09-26 20:54:37,437 [INFO] Chapter 22 downloaded
+2022-09-26 20:54:37,438 [INFO] Downloading chapter 23
+2022-09-26 20:54:50,849 [INFO] Chapter 23 downloaded
+2022-09-26 20:54:50,850 [INFO] Downloading chapter 24
+2022-09-26 20:55:04,677 [INFO] Chapter 24 downloaded
+2022-09-26 20:55:04,682 [INFO] Volume 4 downloaded succesfully
+2022-09-26 20:55:04,684 [INFO] Downloading chapter 25
+2022-09-26 20:55:18,146 [INFO] Chapter 25 downloaded
+2022-09-26 20:55:18,147 [INFO] Downloading chapter 26
+2022-09-26 20:55:30,792 [INFO] Chapter 26 downloaded
+2022-09-26 20:55:30,793 [INFO] Downloading chapter 27
+2022-09-26 20:55:45,567 [INFO] Chapter 27 downloaded
+2022-09-26 20:55:45,568 [INFO] Downloading chapter 28
+2022-09-26 20:56:01,775 [INFO] Chapter 28 downloaded
+2022-09-26 20:56:01,776 [INFO] Downloading chapter 29
+2022-09-26 20:56:16,760 [INFO] Chapter 29 downloaded
+2022-09-26 20:56:16,767 [INFO] Volume 5 downloaded succesfully
+2022-09-26 21:12:11,402 [INFO] CH1 already exist
+2022-09-26 21:12:11,403 [INFO] CH2 already exist
+2022-09-26 21:12:11,403 [INFO] CH3 already exist
+2022-09-26 21:12:11,403 [INFO] CH4 already exist
+2022-09-26 21:12:11,404 [INFO] CH5 already exist
+2022-09-26 21:12:11,404 [INFO] CH6 already exist
+2022-09-26 21:12:11,404 [INFO] CH7 already exist
+2022-09-26 21:12:11,411 [INFO] Volume 1 downloaded succesfully
+2022-09-26 21:12:11,412 [INFO] CH8 already exist
+2022-09-26 21:12:11,413 [INFO] CH9 already exist
+2022-09-26 21:12:11,413 [INFO] CH10 already exist
+2022-09-26 21:12:11,413 [INFO] CH11 already exist
+2022-09-26 21:12:11,414 [INFO] CH12 already exist
+2022-09-26 21:12:11,414 [INFO] CH13 already exist
+2022-09-26 21:12:11,414 [INFO] CH14 already exist
+2022-09-26 21:12:11,415 [INFO] CH15 already exist
+2022-09-26 21:12:11,415 [INFO] CH16 already exist
+2022-09-26 21:12:11,415 [INFO] CH17 already exist
+2022-09-26 21:12:11,425 [INFO] Volume 2 downloaded succesfully
+2022-09-26 21:12:11,427 [INFO] CH18 already exist
+2022-09-26 21:12:11,427 [INFO] CH19 already exist
+2022-09-26 21:12:11,427 [INFO] CH20 already exist
+2022-09-26 21:12:11,428 [INFO] CH21 already exist
+2022-09-26 21:12:11,428 [INFO] CH22 already exist
+2022-09-26 21:12:11,428 [INFO] CH23 already exist
+2022-09-26 21:12:11,429 [INFO] CH24 already exist
+2022-09-26 21:12:11,429 [INFO] CH25 already exist
+2022-09-26 21:12:11,429 [INFO] CH26 already exist
+2022-09-26 21:12:11,440 [INFO] Volume 3 downloaded succesfully
+2022-09-26 21:12:11,441 [INFO] CH27 already exist
+2022-09-26 21:12:11,441 [INFO] CH28 already exist
+2022-09-26 21:12:11,441 [INFO] CH29 already exist
+2022-09-26 21:12:11,442 [INFO] Downloading chapter 30
+2022-09-26 21:12:27,644 [INFO] Chapter 30 downloaded
+2022-09-26 21:12:27,647 [INFO] Downloading chapter 31
+2022-09-26 21:12:43,948 [INFO] Chapter 31 downloaded
+2022-09-26 21:12:43,949 [INFO] Downloading chapter 32
+2022-09-26 21:12:59,563 [INFO] Chapter 32 downloaded
+2022-09-26 21:12:59,566 [INFO] Downloading chapter 33
+2022-09-26 21:13:17,200 [INFO] Chapter 33 downloaded
+2022-09-26 21:13:17,202 [INFO] Downloading chapter 34
+2022-09-26 21:13:34,273 [INFO] Chapter 34 downloaded
+2022-09-26 21:13:34,275 [INFO] Downloading chapter 35
+2022-09-26 21:13:53,380 [INFO] Chapter 35 downloaded
+2022-09-26 21:13:53,428 [INFO] Volume 4 downloaded succesfully
+2022-09-26 21:13:53,429 [INFO] Downloading chapter 36
+2022-09-26 21:14:11,913 [INFO] Chapter 36 downloaded
+2022-09-26 21:14:11,914 [INFO] Downloading chapter 37
+2022-09-26 21:14:31,735 [INFO] Chapter 37 downloaded
+2022-09-26 21:14:31,735 [INFO] Downloading chapter 38
+2022-09-26 21:14:51,145 [INFO] Chapter 38 downloaded
+2022-09-26 21:14:51,148 [INFO] Downloading chapter 39
+2022-09-26 21:15:09,919 [INFO] Chapter 39 downloaded
+2022-09-26 21:15:09,920 [INFO] Downloading chapter 40
+2022-09-26 21:15:26,320 [INFO] Chapter 40 downloaded
+2022-09-26 21:15:26,322 [INFO] Downloading chapter 41
+2022-09-26 21:15:43,368 [INFO] Chapter 41 downloaded
+2022-09-26 21:15:43,370 [INFO] Downloading chapter 42
+2022-09-26 21:15:59,081 [INFO] Chapter 42 downloaded
+2022-09-26 21:15:59,083 [INFO] Downloading chapter 43
+2022-09-26 21:16:14,086 [INFO] Chapter 43 downloaded
+2022-09-26 21:16:14,087 [INFO] Downloading chapter 44
+2022-09-26 21:16:34,367 [INFO] Chapter 44 downloaded
+2022-09-26 21:16:34,386 [INFO] Volume 5 downloaded succesfully
+2022-09-26 21:16:34,387 [INFO] Downloading chapter 45
+2022-09-26 21:16:52,911 [INFO] Chapter 45 downloaded
+2022-09-26 21:16:52,914 [INFO] Downloading chapter 46
+2022-09-26 21:17:09,899 [INFO] Chapter 46 downloaded
+2022-09-26 21:17:09,901 [INFO] Downloading chapter 47
+2022-09-26 21:17:27,507 [INFO] Chapter 47 downloaded
+2022-09-26 21:17:27,507 [INFO] Downloading chapter 48
+2022-09-26 21:17:44,319 [INFO] Chapter 48 downloaded
+2022-09-26 21:17:44,320 [INFO] Downloading chapter 49
+2022-09-26 21:18:05,247 [INFO] Chapter 49 downloaded
+2022-09-26 21:18:05,248 [INFO] Downloading chapter 50
+2022-09-26 21:18:20,971 [INFO] Chapter 50 downloaded
+2022-09-26 21:18:20,972 [INFO] Downloading chapter 51
+2022-09-26 21:18:37,004 [INFO] Chapter 51 downloaded
+2022-09-26 21:18:37,005 [INFO] Downloading chapter 52
+2022-09-26 21:18:57,089 [INFO] Chapter 52 downloaded
+2022-09-26 21:18:57,090 [INFO] Downloading chapter 53
+2022-09-26 21:19:15,266 [INFO] Chapter 53 downloaded
+2022-09-26 21:19:15,287 [INFO] Volume 6 downloaded succesfully
+2022-09-26 21:19:15,288 [INFO] Downloading chapter 54
+2022-09-26 21:19:32,398 [INFO] Chapter 54 downloaded
+2022-09-26 21:19:32,400 [INFO] Downloading chapter 55
+2022-09-26 21:19:50,186 [INFO] Chapter 55 downloaded
+2022-09-26 21:19:50,187 [INFO] Downloading chapter 56
+2022-09-26 21:20:08,254 [INFO] Chapter 56 downloaded
+2022-09-26 21:20:08,255 [INFO] Downloading chapter 57
+2022-09-26 21:20:24,699 [INFO] Chapter 57 downloaded
+2022-09-26 21:20:24,702 [INFO] Downloading chapter 58
+2022-09-26 21:20:50,481 [INFO] Chapter 58 downloaded
+2022-09-26 21:20:50,482 [INFO] Downloading chapter 59
+2022-09-26 21:21:09,109 [INFO] Chapter 59 downloaded
+2022-09-26 21:21:09,111 [INFO] Downloading chapter 60
+2022-09-26 21:21:25,752 [INFO] Chapter 60 downloaded
+2022-09-26 21:21:25,755 [INFO] Downloading chapter 61
+2022-09-26 21:21:42,369 [INFO] Chapter 61 downloaded
+2022-09-26 21:21:42,370 [INFO] Downloading chapter 62
+2022-09-26 21:22:06,341 [INFO] Chapter 62 downloaded
+2022-09-26 21:22:06,395 [INFO] Volume 7 downloaded succesfully
+2022-09-26 21:22:06,396 [INFO] Downloading chapter 63
+2022-09-26 21:22:22,221 [INFO] Chapter 63 downloaded
+2022-09-26 21:22:22,222 [INFO] Downloading chapter 64
+2022-09-26 21:22:23,022 [INFO] Chapter 64 downloaded
+2022-09-26 21:22:23,024 [INFO] Downloading chapter 65
+2022-09-26 21:22:40,197 [INFO] Chapter 65 downloaded
+2022-09-26 21:22:40,199 [INFO] Downloading chapter 66
+2022-09-26 21:22:57,064 [INFO] Chapter 66 downloaded
+2022-09-26 21:22:57,067 [INFO] Downloading chapter 67
+2022-09-26 21:23:15,600 [INFO] Chapter 67 downloaded
+2022-09-26 21:23:15,601 [INFO] Downloading chapter 68
+2022-09-26 21:23:32,106 [INFO] Chapter 68 downloaded
+2022-09-26 21:23:32,106 [INFO] Downloading chapter 69
+2022-09-26 21:23:50,260 [INFO] Chapter 69 downloaded
+2022-09-26 21:23:50,262 [INFO] Downloading chapter 70
+2022-09-26 21:24:07,569 [INFO] Chapter 70 downloaded
+2022-09-26 21:24:07,606 [INFO] Downloading chapter 71
+2022-09-26 21:24:23,643 [INFO] Chapter 71 downloaded
+2022-09-26 21:24:23,694 [INFO] Volume 8 downloaded succesfully
+2022-09-26 21:24:23,699 [INFO] Downloading chapter 72
+2022-09-26 21:24:39,465 [INFO] Chapter 72 downloaded
+2022-09-26 21:24:39,466 [INFO] Downloading chapter 73
+2022-09-26 21:24:58,804 [INFO] Chapter 73 downloaded
+2022-09-26 21:24:58,805 [INFO] Downloading chapter 74
+2022-09-26 21:25:17,358 [INFO] Chapter 74 downloaded
+2022-09-26 21:25:17,359 [INFO] Downloading chapter 75
+2022-09-26 21:25:38,817 [INFO] Chapter 75 downloaded
+2022-09-26 21:25:38,818 [INFO] Downloading chapter 76
+2022-09-26 21:25:57,720 [INFO] Chapter 76 downloaded
+2022-09-26 21:25:57,720 [INFO] Downloading chapter 77
+2022-09-26 21:26:13,779 [INFO] Chapter 77 downloaded
+2022-09-26 21:26:13,780 [INFO] Downloading chapter 78
+2022-09-26 21:26:29,725 [INFO] Chapter 78 downloaded
+2022-09-26 21:26:29,726 [INFO] Downloading chapter 79
+2022-09-26 21:26:46,919 [INFO] Chapter 79 downloaded
+2022-09-26 21:26:46,920 [INFO] Downloading chapter 80
+2022-09-26 21:27:06,453 [INFO] Chapter 80 downloaded
+2022-09-26 21:27:06,502 [INFO] Volume 9 downloaded succesfully
+2022-09-26 21:27:06,504 [INFO] Downloading chapter 81
+2022-09-26 21:27:22,805 [INFO] Chapter 81 downloaded
+2022-09-26 21:27:22,806 [INFO] Downloading chapter 82
+2022-09-26 21:27:40,430 [INFO] Chapter 82 downloaded
+2022-09-26 21:27:40,431 [INFO] Downloading chapter 83
+2022-09-26 21:27:55,283 [INFO] Chapter 83 downloaded
+2022-09-26 21:27:55,321 [INFO] Downloading chapter 84
+2022-09-26 21:28:21,383 [INFO] Chapter 84 downloaded
+2022-09-26 21:28:21,384 [INFO] Downloading chapter 85
+2022-09-26 21:28:39,048 [INFO] Chapter 85 downloaded
+2022-09-26 21:28:39,049 [INFO] Downloading chapter 86
+2022-09-26 21:28:54,663 [INFO] Chapter 86 downloaded
+2022-09-26 21:28:54,664 [INFO] Downloading chapter 87
+2022-09-26 21:29:09,609 [INFO] Chapter 87 downloaded
+2022-09-26 21:29:09,610 [INFO] Downloading chapter 88
+2022-09-26 21:29:26,571 [INFO] Chapter 88 downloaded
+2022-09-26 21:29:26,609 [INFO] Downloading chapter 89
+2022-09-26 21:29:45,715 [INFO] Chapter 89 downloaded
+2022-09-26 21:29:45,766 [INFO] Volume 10 downloaded succesfully
