@@ -1,21 +1,15 @@
-from contextlib import nullcontext
-from ctypes import sizeof
-from email.errors import StartBoundaryNotFoundDefect
-from types import NoneType
-from urllib import request
 import requests # to get image from the web
 import shutil # to save it locally
 import os
 from os.path import basename
-from bs4 import *
 import logging
 import sys
 
 folderName = "CH"
+suffixList = [".png",".jpg",".webp"]
+pageFormat = 2
 
 def chapterDownloader(mangaUrl,filePath,chNumber,idFilter = None):
-    pageFormat = 2
-    suffixList = [".png",".jpg",".webp"]
     
     if not os.path.exists(filePath):
         os.makedirs(filePath)
